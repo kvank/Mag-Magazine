@@ -1,0 +1,21 @@
+@media only screen and (max-width: 481px), (max-device-width: 481px) {
+	#nav-txt{
+		width: 100%;
+	}
+	.content-b-l-u{
+		flex-direction: column;
+		min-height: 850px;
+	}
+	.padding-left20 { padding-left: 0px; }
+	.content-b-l-b-blck{
+		min-width: 360px;
+	}
+	#footer-u{
+		flex-wrap: wrap;
+		justify-content: space-around;
+		min-height: 600px;
+	}
+		.footer-u-blck{
+			min-width: 300px;
+		}
+}

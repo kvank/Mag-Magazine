@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/**
+ * Основные стили
+ **/
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #E0E0E0;
+}
+
+#content, #nav, #footer {
+  padding: 25px 30px 25px 30px;
+}
+
+#footer {
+  padding-bottom: 0px;
+}
+
+#top-txt span,
+.content-b-l-u-blck-pic-txt-READ_MORE,
+.content-b-l-u-blck-pic-txt_body p .red-text,
+.red-text li,
+#nav-txt span {
+  background-color: inherit;
+  cursor: pointer;
+}
+
+/*
+html {
+  font-size: 16px;
+  color: $black;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.container {
+  @include min-max(320px, 100%, 0);
+}
+
+.wrap {
+  @include min-max(320px, 1140px, 15px);
+}*/

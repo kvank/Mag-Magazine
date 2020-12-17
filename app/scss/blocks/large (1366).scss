@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1367px), (max-device-width: 1367px) {
+  .content-u {
+    flex-direction: column;
+    min-height: 1580px;
+  }
+  .content-u-blck {
+    min-height: 680px;
+  }
+  .content-u-blck > :first-child {
+    align-items: center;
+  }
+  #img500x320 {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+  }
+  .img100x100 {
+    width: 15%;
+    height: 15%;
+  }
+  .content-b-r > :first-child,
+  .text-body br {
+    display: none;
+  }
+  .content-b-r > :last-child {
+    min-width: 330px;
+  }
+  .footer-u-blck {
+    min-width: 230px;
+  }
+}
